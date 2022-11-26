@@ -13,7 +13,7 @@ int main()
 {
     // No mechanism for erronous user input has been implemented.
     cout << "Welcome to the fortune teller program!"s << endl;
-    cout << "Please enter your name: "s;
+    cout << "Please enter your name:"s << endl;
     std::string name{};
     cin >> name;
 
@@ -48,7 +48,7 @@ int main()
     const int ending_index = name.length() % ending_array_options.size();
     const std::string ending = ending_array_options.at(ending_index);
 
-    cout << "Here is your description"s << endl;
+    cout << "Here is your description:"s << endl;
 
     const std::string description = name + ", the "s + chosen_adjective + " "s + noun + " that "s + ending;
     cout << description << endl;
