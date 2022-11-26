@@ -13,7 +13,7 @@ int main()
 {
     // No mechanism for erronous user input has been implemented.
     cout << "Welcome to the fortune teller program!"s << endl;
-    cout << "Please enter your name: "s << endl;
+    cout << "Please enter your name:"s << endl;
     std::string name{};
     cin >> name;
 
